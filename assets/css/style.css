@@ -1,0 +1,336 @@
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	max-height:1100px;
+	margin: 0px auto;
+	border: 1px solid green; 
+}
+
+/* nav code start */
+nav{
+	background: #F8F9FA;
+}
+.nav-inner{
+	clear: both;
+	overflow: hidden;
+}
+/* logo code start */
+.nav-inner .logo{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.nav-inner .logo a{
+	color: #6c55f9;
+	font-size: 23px;
+	font-weight: 600;
+	font-family:"Work Sans", sans-serif;
+	text-decoration: none;
+	padding: 30px 0px;
+	display: inline-block;
+}
+.nav-inner .logo a span{
+	color:#5538F8;
+}
+.nav-inner .logo a {
+	color:#000000;
+}
+.gram{
+	color:#6C55F9;
+}
+/* logo code end */
+/* navbar code start */
+.nav-inner .navbar{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.nav-inner .navbar ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.nav-inner .navbar ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav-inner .navbar ul li a{
+	color: #00394f;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	margin: 0px 7px;
+	padding: 33px 10px;
+	font-family:"Work Sans", sans-serif;
+	transition: .5s all;
+	display: inline-block;
+}
+.nav-inner .navbar ul li a.active{
+	color: #5538F8;
+}
+.nav-inner .navbar ul li a:hover{
+	color: #17A2B8;
+}
+/* navbar code end */
+
+/* joining-button code start */
+.nav-inner .free_analytics{
+	width: 15%;
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+.nav-inner .free_analytics a{
+	color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 22px 0px;
+    padding: 15px 30px;
+    font-family: "Work Sans", sans-serif;
+    transition: .5s all;
+    background: #6C55F9;
+    display: inline-block;
+    border-radius: 20px;
+}
+.nav-inner .free_analytics a:hover{
+	background: #645F88;
+}
+/* joining-button code end */
+/* nav code end */
+/* header code start */
+header{
+	background:#fff;
+}
+.header-inner{
+	clear: both;
+	overflow: hidden;
+	background: #F6F5FC;
+	border-radius:40px;
+}
+/* header-content start */
+.header-content{
+	float: left;
+	width: 50%;
+	padding: 100px 0px;
+}
+.header-content h2{
+	color: #645f88;
+	font-size: 40px;
+	font-weight: 500;
+	margin: 0px;
+	padding:40px;
+	font-family:"Work Sans", sans-serif;
+}
+.header-content h3{
+	color:#8e8aad;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 400;
+	margin: 0px 0px;
+	padding: 0px 0px 20px 42px;
+	font-family:"Work Sans", sans-serif;
+}
+.header-content a{
+	color: #fff;
+	background: #6C55F9;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+	display: inline-block;
+    padding: 10px 40px;
+	margin: 0px 43px;
+    border-radius: 30px;
+    text-decoration: none;
+	transition: .5s all;
+}
+.header-content a:hover{
+	background: #645F88;
+}
+/* header-content end */
+/* header-poster start */
+.header-poster{
+	float: left;
+	width: 50%;
+}
+.header-poster img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding:70px 70px;
+}
+/* header-poster end */
+/* header code end */
+/* Services-section code start */
+.Services-section{
+	padding: 80px 0px;
+}
+.Services-inner{
+	background:#fff;
+	clear: both;
+	overflow: hidden;
+}
+.Services-inner .container{
+	width: 90%;
+	margin: 0px auto;
+}
+.Services-block{
+	float: left;
+    height: 100%;
+	width:20%;
+	margin: 0px 108px;
+    background: #F8F9FA;
+    box-shadow: 0px 0px 5px #c2c2c2;
+    border-top: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.Services-block-containt h2{
+	color: #645f88;
+	font-size: 20px;
+	padding:0px 87px;
+	font-weight: 500;
+	font-family:"Work Sans", sans-serif;
+}
+.Services-block-containt p{
+	color: ##898798;
+	font-size: 16px;
+	font-weight: 400;
+	font-family:"Work Sans", sans-serif;
+	padding: 0px 50px;
+	text-align:justify;
+}
+.Services-block-containt a{
+	color: #fff;
+	background: #6C55F9;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Work Sans", sans-serif;
+	display: inline-block;
+    padding: 10px 40px;
+	margin: 15px 89px;
+    border-radius: 30px;
+    text-decoration: none;
+	transition: .5s all;
+}
+.Services-block-containt a:hover{
+	background:#645F88;
+}
+.Services-block img{
+	display:block;
+	padding: 10px 130px;
+}
+/* features-section code end */
+/*about section code start*/
+.about-inner{
+	display:float;
+	overflow:hidden;
+}
+.about-us-content{
+	float:left;
+	width:50%;
+	padding: 85px;
+}
+.about-us-poster{
+	float:left;
+	width:50%;
+	padding: 85px;
+}
+.about-us-content h3{
+	color: #898798;
+	font-size: 24px;
+	font-weight: 500;
+	font-family:"Work Sans", sans-serif;
+	padding: 0px;
+}
+.about-us-content h2{
+	color: #898798;
+	font-size: 32px;
+	font-weight: 500;
+	line-height:1.25;
+	font-family:"Work Sans", sans-serif;
+}
+.about-us-content p{
+	color: #898798;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:1.5;
+	font-family:"Work Sans", sans-serif;
+}
+.about-us-content a{
+	color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 22px 0px;
+    padding: 15px 30px;
+    font-family: "Work Sans", sans-serif;
+    transition: .5s all;
+    background: #6C55F9;
+    display: inline-block;
+    border-radius: 20px;
+	transition:.5s all;
+}
+.about-us-content a:hover{
+	background:#645F88;
+}
+/*about section code end*/
+/*seo services section start*/
+.seo-service-section{
+	background:#F6F5FC;
+}
+.inner-service-heading h2{
+	color: #898798;
+	margin: 27px 0px;
+    padding: 0px 796px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height:1.25;
+	font-family:"Work Sans", sans-serif;
+}
+.inner-service-heading h1{
+	color: #645f88;
+	margin:20px 0px;
+    padding: 0px 655px;
+	font-size: 32px;
+	font-weight: 500;
+	line-height:1.25;
+	font-family:"Work Sans", sans-serif;
+}
+.service-items{
+	width:100%;
+	display:float;
+	overflow:hidden;
+}
+.service-items .style {
+	margin: 20px;
+}
+.service-items img{
+	padding: 0px 43px;
+}
+.service-items h3{
+	color: #2d2b3a;
+	font-size: 20px;
+	margin: 10px 43px;
+	font-weight: 500;
+	line-height:1.25;
+	font-family:"Work Sans", sans-serif;
+}
+.service-items p{
+	color: #898798;
+	font-size: 13px;
+	font-weight: 400;
+	line-height:1.25;
+	font-family:"Work Sans", sans-serif;
+}
+.service-items .style{
+	float:left;
+	width:15%;
+	margin: 0px 85px;
+}
+/*seo services section end*/
